@@ -511,9 +511,9 @@ public class kamar extends javax.swing.JFrame {
  String lnt = lantai.getSelectedItem().toString();
         String stts = null;
       if (ready.isSelected()){
-          stts = "Ready";
+          stts = "Tersedia";
       } else if (nready.isSelected()){
-          stts = "Tidak Ready";
+          stts = "Tidak Tersedia";
       }
       java.util.ArrayList<String> fasilitasDipilih = new java.util.ArrayList<>();
     if (cbwf.isSelected())     fasilitasDipilih.add("WiFi");
